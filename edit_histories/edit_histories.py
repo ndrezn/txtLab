@@ -138,8 +138,5 @@ def main():
 
     changes = compare_edits(title)
 
-    for change in changes:
-        print change.removed
-
 
 main()
