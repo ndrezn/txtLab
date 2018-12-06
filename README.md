@@ -6,7 +6,7 @@ how language is fought over on Wikipedia. Research is based in collecting lists 
 by Wikipedia editors or categories on America novels, TV shows, and films and compiling revisions to individual 
 articles included in those lists over time.
 
-The project is being conducted for the McGill [txtLab](txtLab.org).
+The project is being conducted for the McGill [txtLab](txtlab.org).
 
 ## this repository
 Included in this repository are scripts written in Python and R used to collect information on Wikipedia entries.
