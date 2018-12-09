@@ -5,7 +5,6 @@ import requests
 from lxml import html
 from time import mktime
 from datetime import datetime
-import time
 
 
 # class to track data about each change of a page
@@ -70,28 +69,6 @@ def changes(cur, prev):
     return a
 
 
-# pull plain text representation of a revision from API
-def get_text(id):
-    response = requests.get(
-        "https://wikipedia.org/w/api.php",
-        params={
-            "action": "parse",
-            'format': 'json',
-            'oldid' : id,
-        }
-    ).json()
-
-    raw_html = response['parse']['text']['*']
-    document = html.document_fromstring(raw_html)
-    text = document.xpath('//p')
-    paragraphs = []
-
-    for paragraph in text:
-        paragraphs.append(paragraph.text_content().encode('utf-8'))
-
-    return "".join(paragraphs)
-
-
 # pull users, handles hidden user errors
 def get_users(metadata):
     users = []
@@ -125,7 +102,7 @@ def get_comment(metadata):
     return comment
 
 
-# output classes of a page to a text file (FA, good, etc.) given a talk page
+# output classes of a page to a list (FA, good, etc.) given a talk page
 def get_ratings(talk):
     timestamps = [rev['timestamp'] for rev in talk.revisions()]
     ratings = []
@@ -147,7 +124,7 @@ def get_ratings(talk):
             try:
                 rate = template.get('class').value
                 break
-            except(ValueError):
+            except ValueError:
                 continue
 
         rating = Rating(rate, datetime.fromtimestamp(mktime(timestamps[i])))
@@ -158,7 +135,33 @@ def get_ratings(talk):
     return ratings
 
 
-def compare_edits(title):
+# pull plain text representation of a revision from API
+def get_text(id):
+    response = requests.get(
+        "https://wikipedia.org/w/api.php",
+        params={
+            "action": "parse",
+            'format': 'json',
+            'oldid': id,
+        }
+    ).json()
+    try:
+        raw_html = response['parse']['text']['*']
+    except KeyError:
+        return '+++PAGE REMOVED+++'
+    document = html.document_fromstring(raw_html)
+    text = document.xpath('//p')
+    paragraphs = []
+
+    for paragraph in text:
+        paragraphs.append(paragraph.text_content().encode('utf-8'))
+
+    cur = "".join(paragraphs)
+
+    return cur
+
+
+def compare_edits(path, title):
     site = Site('en.wikipedia.org')
     page = site.pages[title]
     talk = site.pages["Talk:" + title]
@@ -170,25 +173,11 @@ def compare_edits(title):
     kind = get_kind(metadata)
     comments = get_comment(metadata)
 
-    # collect revision contents
-    content = []
+    prev = ''
 
-    for cur in page.revisions(prop='content'):
-        if cur.__len__() is 1:
-            content.append(prev)
-        else:
-            content.append(cur)
-
-        prev = cur
-
-    for i in range(0, metadata.__len__()):
+    for i in range(metadata.__len__()-1, 0, -1):
         if i % 5 != 0:
             continue
-
-        try:
-            prev = get_text(metadata[i+5]['revid']).split()
-        except(IndexError):
-            prev = ""
 
         # iterate against talk page editions
         time = datetime.fromtimestamp(mktime(metadata[i]['timestamp']))
@@ -198,14 +187,6 @@ def compare_edits(title):
                 rating = item.rating
                 break
 
-        # Alternative method of capturing the body text of a revision:
-        # Instead of parsing the HTML straight form the API, parse the markup using mwparserfromhell.
-        # isolate the body text of the revision (cur.items()[2])
-        # then, parse the body text with mw (mw.parse())
-        # then, use mw to turn the markup text into plain text (.stripcode())
-        # then, convert to a utf-8 string using .encode
-        # text = mw.parse(content[i].items()[2]).strip_code().encode('utf-8')
-
         text = get_text(metadata[i]['revid'])
 
         cur = text.split()
@@ -214,14 +195,12 @@ def compare_edits(title):
                         comments[i], rating, text, changes(prev, cur),
                         changes(cur, prev))
 
-        write_change(change)
+        write_change(path, change)
+        prev = cur
 
 
 # output metadata of a page to a text file
-def write_change(change):
-    path = "/Users/nathandrezner/OneDrive - McGill University/McGill/txt Lab/" \
-           "out/edit_compare/novels/" + change.title + "/"
-
+def write_change(path, change):
     if not os.path.exists(path):
         os.makedirs(path)
 
@@ -238,15 +217,10 @@ def write_change(change):
 
 
 def main():
-    f = open('/Users/nathandrezner/OneDrive - McGill University/McGill/'
-             'txt Lab/out/edit_compare/lists/novels.txt', 'r')
-    titles = [line.strip() for line in f.readlines()]
-
-    for title in titles:
-        print title
-        compare_edits(title)
+    path = "/Users/"
+    title = 'Up (2009 film)'
+    
+    compare_edits(path, title)
 
 
-start_time = time.time()
 main()
-print("--- %s seconds ---" % (time.time() - start_time))
