@@ -1,3 +1,5 @@
+## Generates a metadata sheet for Wikipedia's American Novels category
+
 from bs4 import BeautifulSoup
 import requests
 import csv
