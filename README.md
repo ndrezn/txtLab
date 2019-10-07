@@ -11,8 +11,8 @@ The project is being conducted for the McGill [txtLab](https://txtlab.org/).
 ## This repository
 Included in this repository are scripts written in Python and R used to collect information on Wikipedia entries.
 
-# Data analysis
-## Metadata analysis
+## Data analysis
+### Metadata analysis
 Generators for different metadata features of the articles. 
 
 analyze_meta generates information about the csv file containing complete data.
@@ -23,15 +23,15 @@ one_way_anova and tukey_hsd both compute ANOVA testing on times between edits fo
 
 edit_histories.py uses MWClient to collect information from the Wikipedia API on a given article.
 
-## Social networks
+### Social networks
 
 Generates randomized social networks representing the user base of different Wikipedia articles using the raw dataset.
 
-## Classifiers
+### Classifiers
 Classifier designed to compare edits in different spaces to each other and predict which space a given article belongs to based on those edits.
 
 The classifier also determines the most distinctive features of each space based on these edits.
 
-# Data collection
+## Data collection
 There are several data collectors in this repository. scrape_complete.py will download complete histories of given wikipedia pages asychornously and save each page as a json file with a structure represenging the different elements of the page. Other scrapers will download information from Wikipedia lists representing different cultural domains.
 
