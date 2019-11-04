@@ -1,0 +1,546 @@
+,title,url,genre,subgenres
+0,play,/wiki/Play_(theatre),Exclusions,
+1,Ballroom dance,/wiki/Ballroom_dance,Exclusions,
+2,Religious music,/wiki/Religious_music,Exclusions,
+3,Military music,/wiki/Military_band,Exclusions,
+4,traditional music,/wiki/Traditional_music,Exclusions,
+5,Afrobeat,/wiki/Afrobeat,By region,African
+6,African hip hop,/wiki/African_hip_hop,By region,African
+7,African heavy metal,/wiki/African_heavy_metal,By region,African
+8,AmaPiano,/w/index.php?title=AmaPiano&action=edit&redlink=1,By region,African
+9,Apala,/wiki/Apala,By region,African
+10,Benga,/wiki/Benga_music,By region,African
+11,Boomba,/wiki/Boomba_music,By region,African
+12,Bongo Flava,/wiki/Bongo_Flava,By region,African
+13,Bikutsi,/wiki/Bikutsi,By region,African
+14,Bubblegum,/w/index.php?title=Bubblegum_(African_music_genre)&action=edit&redlink=1,By region,African
+15,Cape Jazz,/wiki/Cape_Jazz,By region,African
+16,Chimurenga,/wiki/Chimurenga_music,By region,African
+17,Congolese rumba,/wiki/Congolese_rumba,By region,African
+18,Coupé-Décalé,/wiki/Coup%C3%A9-D%C3%A9cal%C3%A9,By region,African
+19,Fuji,/wiki/Fuji_music,By region,African
+20,Genge,/wiki/Genge,By region,African
+21,Highlife,/wiki/Highlife,By region,African
+22,Hiplife,/wiki/Hiplife,By region,African
+23,Igbo highlife,/wiki/Igbo_highlife,By region,African
+24,Igbo rap,/wiki/Igbo_rap,By region,African
+25,Isicathamiya,/wiki/Isicathamiya,By region,African
+26,Jit,/wiki/Jit,By region,African
+27,Jùjú,/wiki/J%C3%B9j%C3%BA_music,By region,African
+28,Gospel,/wiki/Gospel_music,By region,African
+29,Gqom,/wiki/Gqom,By region,African
+30,Kadongo Kamu,/wiki/Kadongo_Kamu,By region,African
+31,Kizomba,/wiki/Kizomba,By region,African
+32,Kuduro,/wiki/Kuduro,By region,African
+33,Kwaito,/wiki/Kwaito,By region,African
+34,Kwela,/wiki/Kwela,By region,African
+35,Makossa,/wiki/Makossa,By region,African
+36,Maloya,/wiki/Maloya,By region,African
+37,Marabi,/wiki/Marabi,By region,African
+38,Marrabenta,/wiki/Marrabenta,By region,African
+39,Mbalax,/wiki/Mbalax,By region,African
+40,Mbaqanga,/wiki/Mbaqanga,By region,African
+41,Mbube,/wiki/Mbube_(genre),By region,African
+42,Morna,/wiki/Morna_(music),By region,African
+43,Ndombolo,/wiki/Ndombolo,By region,African
+44,Ohangla,/wiki/Ohangla,By region,African
+45,Orutu,/wiki/Orutu,By region,African
+46,Palm-wine,/wiki/Palm-wine_music,By region,African
+47,Raï,/wiki/Ra%C3%AF,By region,African
+48,Sakara,/wiki/Sakara_music,By region,African
+49,Sega,/wiki/Sega_music,By region,African
+50,Seggae,/wiki/Seggae,By region,African
+51,Semba,/wiki/Semba,By region,African
+52,Shangaan electro,/wiki/Shangaan_electro,By region,African
+53,Kwassa kwassa,/wiki/Kwassa_kwassa,By region,African
+54,Fann at-Tanbura,/wiki/Fann_at-Tanbura,By region,Asian
+55,Fijiri,/wiki/Fijiri,By region,Asian
+56,Khaliji,/wiki/Khaliji_(music),By region,Asian
+57,Liwa,/wiki/Liwa_(music),By region,Asian
+58,Sawt,/wiki/Sawt_(music),By region,Asian
+59,Cantopop,/wiki/Cantopop,By region,Asian
+60,Mandopop,/wiki/Mandopop,By region,Asian
+61,Taiwanese pop,/wiki/Taiwanese_pop,By region,Asian
+62,Asian Underground,/wiki/Asian_Underground,By region,Asian
+63,Baila,/wiki/Baila,By region,Asian
+64,Baul,/wiki/Baul,By region,Asian
+65,Bhangra,/wiki/Bhangra_(music),By region,Asian
+66,Bhawaiya,/wiki/Bhawaiya,By region,Asian
+67,Goa trance,/wiki/Goa_trance,By region,Asian
+68,Hindustani Classical,/wiki/Hindustani_Classical_Music,By region,Asian
+69,Carnatic,/wiki/Carnatic_music,By region,Asian
+70,Raga rock,/wiki/Raga_rock,By region,Asian
+71,Campursari,/wiki/Campursari,By region,Asian
+72,Dangdut,/wiki/Dangdut,By region,Asian
+73,Indo pop,/wiki/Indo_pop,By region,Asian
+74,Keroncong,/wiki/Keroncong,By region,Asian
+75,Luk Krung,/wiki/Luk_Krung,By region,Asian
+76,Original Pilipino,/wiki/Original_Pilipino_Music,By region,Asian
+77,Afrobeat,/wiki/Afrobeat,Afro,
+78,Highlife,/wiki/Highlife,Afro,
+79,Juju,/wiki/Juju,Afro,
+80,Fuji,/wiki/Fuji_music,Afro,
+81,Apala,/wiki/Apala,Afro,
+82,Experimental,/wiki/Experimental_music,Avant-garde,
+83,Noise,/wiki/Noise_(music),Avant-garde,
+84,Lo-fi,/wiki/Lo-fi_music,Avant-garde,
+85,Musique concrète,/wiki/Musique_concr%C3%A8te,Avant-garde,
+86,Electroacoustic,/wiki/Electroacoustic_music,Avant-garde,
+87,African blues,/wiki/African_blues,Blues,
+88,Blues rock,/wiki/Blues_rock,Blues,
+89,Blues shouter,/wiki/Blues_shouter,Blues,
+90,Canadian blues,/wiki/Canadian_blues,Blues,
+91,Chicago blues,/wiki/Chicago_blues,Blues,
+92,Classic female blues,/wiki/Classic_female_blues,Blues,
+93,Contemporary R&B,/wiki/Contemporary_R%26B,Blues,
+94,Country blues,/wiki/Country_blues,Blues,
+95,Delta blues,/wiki/Delta_blues,Blues,
+96,Detroit blues,/wiki/Detroit_blues,Blues,
+97,Electric blues,/wiki/Electric_blues,Blues,
+98,Gospel blues,/wiki/Gospel_blues,Blues,
+99,Hill country blues,/wiki/Hill_country_blues,Blues,
+100,Hokum,/wiki/Hokum,Blues,
+101,Jump blues,/wiki/Jump_blues,Blues,
+102,Kansas City blues,/wiki/Kansas_City_blues,Blues,
+103,Louisiana blues,/wiki/Louisiana_blues,Blues,
+104,Memphis blues,/wiki/Memphis_blues,Blues,
+105,Piedmont blues,/wiki/Piedmont_blues,Blues,
+106,Punk blues,/wiki/Punk_blues,Blues,
+107,Rhythm and blues,/wiki/Rhythm_and_blues,Blues,
+108,Soul blues,/wiki/Soul_blues,Blues,
+109,St. Louis blues,/wiki/St._Louis_blues_(music),Blues,
+110,Swamp blues,/wiki/Swamp_blues,Blues,
+111,Texas blues,/wiki/Texas_blues,Blues,
+112,West Coast blues,/wiki/West_Coast_blues,Blues,
+113,Baithak Gana,/wiki/Baithak_Gana,Caribbean and Caribbean-influenced,
+114,Dancehall,/wiki/Dancehall_Music,Caribbean and Caribbean-influenced,
+115,Bouyon,/wiki/Bouyon_music,Caribbean and Caribbean-influenced,
+116,Cadence-lypso,/wiki/Cadence-lypso,Caribbean and Caribbean-influenced,
+117,Calypso,/wiki/Calypso_music,Caribbean and Caribbean-influenced,
+118,Cha-cha-chá,/wiki/Cha-cha-ch%C3%A1_(music),Caribbean and Caribbean-influenced,
+119,Chutney soca,/wiki/Chutney_soca,Caribbean and Caribbean-influenced,
+120,Chutney parang,/wiki/Chutney_parang,Caribbean and Caribbean-influenced,
+121,Dub,/wiki/Dub_music,Caribbean and Caribbean-influenced,
+122,Lovers rock,/wiki/Lovers_rock,Caribbean and Caribbean-influenced,
+123,Ragga,/wiki/Ragga,Caribbean and Caribbean-influenced,
+124,Ragga jungle,/wiki/Ragga_jungle,Caribbean and Caribbean-influenced,
+125,Reggae fusion,/wiki/Reggae_fusion,Caribbean and Caribbean-influenced,
+126,Reggaeton,/wiki/Reggaeton,Caribbean and Caribbean-influenced,
+127,Two-tone,/wiki/Two-tone_(music_genre),Caribbean and Caribbean-influenced,
+128,Ska punk,/wiki/Ska_punk,Caribbean and Caribbean-influenced,
+129,Power Soca,/wiki/Power_Soca,Caribbean and Caribbean-influenced,
+130,Comedy,/wiki/Comedy_music,Comedy,
+131,Comedy rock,/wiki/Comedy_rock,Comedy,
+132,Novelty,/wiki/Novelty_song,Comedy,
+133,Parody,/wiki/Parody_music,Comedy,
+134,Cowpunk,/wiki/Cowpunk,Country,
+135,Progressive bluegrass,/wiki/Progressive_bluegrass,Country,
+136,Cajun fiddle,/wiki/Cajun_fiddle,Country,
+137,Cowboy pop,/wiki/Cowboy_pop,Country,
+138,Hellbilly,/wiki/Hellbilly_music,Country,
+139,Psychobilly,/wiki/Psychobilly,Country,
+140,Background music,/wiki/Background_music,Easy listening,
+141,Beautiful music,/wiki/Beautiful_music,Easy listening,
+142,Elevator music,/wiki/Elevator_music,Easy listening,
+143,Furniture music,/wiki/Furniture_music,Easy listening,
+144,Lounge music,/wiki/Lounge_music,Easy listening,
+145,Middle of the road music,/wiki/Middle_of_the_road_(music),Easy listening,
+146,New-age music,/wiki/New-age_music,Easy listening,
+147,Ambient dub,/wiki/Ambient_dub,Electronic,
+148,Dark ambient,/wiki/Dark_ambient,Electronic,
+149,Drone,/wiki/Drone_music,Electronic,
+150,Space,/wiki/Space_music,Electronic,
+151,Illbient,/wiki/Illbient,Electronic,
+152,Psybient,/wiki/Psybient,Electronic,
+153,Acid breaks,/wiki/Acid_breaks,Electronic,
+154,Jersey club,/wiki/Jersey_club,Electronic,
+155,Nu-funk,/wiki/Nu-funk,Electronic,
+156,Miami bass,/wiki/Miami_bass,Electronic,
+157,Afro/Cosmic,/wiki/Afro/cosmic_music,Electronic,
+158,Disco polo,/wiki/Disco_polo,Electronic,
+159,Euro disco,/wiki/Euro_disco,Electronic,
+160,Italo disco,/wiki/Italo_disco,Electronic,
+161,Nu-disco,/wiki/Nu-disco,Electronic,
+162,Space disco,/wiki/Space_disco,Electronic,
+163,Acid jazz,/wiki/Acid_jazz,Electronic,
+164,Chill-out,/wiki/Chill-out_music,Electronic,
+165,Space,/wiki/Space_music,Electronic,
+166,Liquid funk,/wiki/Liquid_funk,Electronic,
+167,Neurohop,/wiki/Neurohop,Electronic,
+168,Ambient dub,/wiki/Ambient_dub,Electronic,
+169,Dancehall,/wiki/Dancehall,Electronic,
+170,Dub poetry,/wiki/Dub_poetry,Electronic,
+171,Dub reggae,/wiki/Dub_reggae,Electronic,
+172,Dub techno,/wiki/Dub_techno,Electronic,
+173,Dubstep,/wiki/Dubstep,Electronic,
+174,Dubtronica,/wiki/Dubtronica,Electronic,
+175,Freestyle,/wiki/Freestyle_music,Electronic,
+176,Electro-industrial,/wiki/Electro-industrial,Electronic,
+177,Acousmatic,/wiki/Acousmatic_music,Electronic,
+178,Musique concrète,/wiki/Musique_concr%C3%A8te,Electronic,
+179,Indietronica,/wiki/Indietronica,Electronic,
+180,Nintendocore,/wiki/Nintendocore,Electronic,
+181,Dubtronica,/wiki/Dubtronica,Electronic,
+182,Folktronica,/wiki/Folktronica,Electronic,
+183,Funktronica,/wiki/Funktronica,Electronic,
+184,Laptronica,/wiki/Laptronica,Electronic,
+185,Livetronica,/wiki/Livetronica,Electronic,
+186,Al Jeel,/wiki/Al_Jeel,Electronic,
+187,Arabic pop,/wiki/Arabic_pop_music,Electronic,
+188,Asian underground,/wiki/Asian_underground,Electronic,
+189,Bhangragga,/wiki/Bhangragga,Electronic,
+190,Cantopop,/wiki/Cantopop,Electronic,
+191,City pop,/wiki/City_pop,Electronic,
+192,Shibuya-kei,/wiki/Shibuya-kei,Electronic,
+193,Gabber,/wiki/Gabber,Electronic,
+194,4-beat,/wiki/4-beat,Electronic,
+195,Breakbeat hardcore,/wiki/Breakbeat_hardcore,Electronic,
+196,Bouncy techno,/wiki/Bouncy_techno,Electronic,
+197,Breakcore,/wiki/Breakcore,Electronic,
+198,Hardbass,/wiki/Hardbass,Electronic,
+199,Digital hardcore,/wiki/Digital_hardcore,Electronic,
+200,Darkcore,/wiki/Darkcore,Electronic,
+201,Happy hardcore,/wiki/Happy_hardcore,Electronic,
+202,Mákina,/wiki/M%C3%A1kina,Electronic,
+203,Splittercore,/wiki/Splittercore,Electronic,
+204,Extratone,/wiki/Extratone,Electronic,
+205,Dubstyle,/wiki/Dubstyle,Electronic,
+206,Jumpstyle,/wiki/Jumpstyle,Electronic,
+207,Lento violento,/wiki/Lento_violento,Electronic,
+208,Eurobeat,/wiki/Eurobeat,Electronic,
+209,Bubblegum dance,/wiki/Bubblegum_dance,Electronic,
+210,Hard dance,/wiki/Hard_dance,Electronic,
+211,Italo dance,/wiki/Italo_dance,Electronic,
+212,Breakbeat,/wiki/Breakbeat,Electronic,
+213,Crunk,/wiki/Crunk,Electronic,
+214,Electro,/wiki/Electro_(music),Electronic,
+215,Hip house,/wiki/Hip_house,Electronic,
+216,Trap EDM,/wiki/Trap_music_(EDM),Electronic,
+217,UK drill,/wiki/UK_drill,Electronic,
+218,Aggrotech,/wiki/Aggrotech,Electronic,
+219,Electrogrind,/wiki/Electrogrind,Electronic,
+220,Electro-industrial,/wiki/Electro-industrial,Electronic,
+221,Dark ambient,/wiki/Dark_ambient,Electronic,
+222,Dark electro,/wiki/Dark_electro,Electronic,
+223,Futurepop,/wiki/Futurepop,Electronic,
+224,New beat,/wiki/New_beat,Electronic,
+225,Death industrial,/wiki/Death_industrial,Electronic,
+226,Glitch Hop,/wiki/Glitch_Hop,Electronic,
+227,Darkcore,/wiki/Darkcore_(drum_and_bass_genre),Electronic,
+228,Ragga jungle,/wiki/Ragga_jungle,Electronic,
+229,Raggacore,/wiki/Raggacore,Electronic,
+230,Boogie,/wiki/Boogie_(genre),Electronic,
+231,Chillwave,/wiki/Chillwave,Electronic,
+232,Vaporwave,/wiki/Vaporwave,Electronic,
+233,Hardvapour,/wiki/Hardvapour,Electronic,
+234,Acid techno,/wiki/Acid_techno,Electronic,
+235,Detroit techno,/wiki/Detroit_techno,Electronic,
+236,Dub techno,/wiki/Dub_techno,Electronic,
+237,Hardtechno,/wiki/Hardtechno,Electronic,
+238,Industrial techno,/wiki/Industrial_techno,Electronic,
+239,Minimal techno,/wiki/Minimal_techno,Electronic,
+240,New beat,/wiki/New_beat,Electronic,
+241,Nortec,/wiki/Nortec,Electronic,
+242,Tecno brega,/wiki/Tecno_brega,Electronic,
+243,Techdombe,/w/index.php?title=Techdombe&action=edit&redlink=1,Electronic,
+244,Acid trance,/wiki/Acid_trance,Electronic,
+245,Balearic trance,/wiki/Balearic_trance,Electronic,
+246,Dream trance,/wiki/Dream_trance,Electronic,
+247,Euro-trance,/wiki/Euro-trance,Electronic,
+248,Hard trance,/wiki/Hard_trance,Electronic,
+249,Nitzhonot,/wiki/Nitzhonot,Electronic,
+250,Full on,/wiki/Full_on,Electronic,
+251,Suomisaundi,/wiki/Suomisaundi,Electronic,
+252,Brostep,/wiki/Brostep,Electronic,
+253,Drumstep,/wiki/Drumstep,Electronic,
+254,Reggaestep,/wiki/Reggaestep,Electronic,
+255,Vomitstep,/w/index.php?title=Vomitstep&action=edit&redlink=1,Electronic,
+256,UK drill,/wiki/UK_drill,Electronic,
+257,Grindie,/wiki/Grindie,Electronic,
+258,Bassline,/wiki/Bassline_(music_genre),Electronic,
+259,Acid house,/wiki/Acid_house,Electronic,House
+260,Ambient house,/wiki/Ambient_house,Electronic,House
+261,Balearic beat,/wiki/Balearic_beat,Electronic,House
+262,Chicago house,/wiki/Chicago_house,Electronic,House
+263,Deep house,/wiki/Deep_house,Electronic,House
+264,Hardbag,/wiki/Hardbag,Electronic,House
+265,Big room house,/wiki/Big_room_house,Electronic,House
+266,Complextro,/wiki/Complextro,Electronic,House
+267,Dutch house,/wiki/Dutch_house,Electronic,House
+268,Fidget house,/wiki/Fidget_house,Electronic,House
+269,Nu-disco,/wiki/Nu-disco,Electronic,House
+270,Ghettotech,/wiki/Ghettotech,Electronic,House
+271,Footwork,/wiki/Footwork_(genre),Electronic,House
+272,Hard dance,/wiki/Hard_dance,Electronic,House
+273,Moombahcore,/wiki/Moombahcore,Electronic,House
+274,Debla,/w/index.php?title=Debla&action=edit&redlink=1,Flamenco,
+275,Martinetes,/wiki/Martinetes,Flamenco,
+276,Carceleras,/w/index.php?title=Carceleras&action=edit&redlink=1,Flamenco,
+277,Saetas,/w/index.php?title=Saetas&action=edit&redlink=1,Flamenco,
+278,Trillas,/w/index.php?title=Trillas&action=edit&redlink=1,Flamenco,
+279,Tonás,/wiki/Ton%C3%A1s,Flamenco,
+280,Alboreás,/w/index.php?title=Albore%C3%A1s&action=edit&redlink=1,Flamenco,
+281,Bulerías,/wiki/Buler%C3%ADas,Flamenco,
+282,Alegrías,/wiki/Alegr%C3%ADas,Flamenco,
+283,Caracoles,/wiki/Caracoles,Flamenco,
+284,Mirabrás,/w/index.php?title=Mirabr%C3%A1s&action=edit&redlink=1,Flamenco,
+285,Peteneras,/wiki/Peteneras,Flamenco,
+286,American folk revival,/wiki/American_folk_revival,Folk,
+287,Anti-folk,/wiki/Anti-folk,Folk,
+288,British folk revival,/wiki/British_folk_revival,Folk,
+289,Celtic,/wiki/Celtic_music,Folk,
+290,Chalga,/wiki/Chalga,Folk,
+291,Contemporary folk,/wiki/Contemporary_folk_music,Folk,
+292,Filk,/wiki/Filk_music,Folk,
+293,Folk rock,/wiki/Folk_rock,Folk,
+294,Folktronica,/wiki/Folktronica,Folk,
+295,Freak folk,/wiki/Freak_folk,Folk,
+296,Indie folk,/wiki/Indie_folk,Folk,
+297,Industrial folk,/wiki/Industrial_folk_music,Folk,
+298,Neofolk,/wiki/Neofolk,Folk,
+299,Progressive folk,/wiki/Progressive_folk_music,Folk,
+300,Protest song,/wiki/Protest_song,Folk,
+301,Psychedelic folk,/wiki/Psychedelic_folk,Folk,
+302,Singer-songwriter,/wiki/Singer-songwriter,Folk,
+303,Skiffle,/wiki/Skiffle,Folk,
+304,Sung poetry,/wiki/Sung_poetry,Folk,
+305,Western music,/wiki/Western_music_(North_America),Folk,
+306,Alternative hip hop,/wiki/Alternative_hip_hop,Hip hop,
+307,Australian hip hop,/wiki/Australian_hip_hop,Hip hop,
+308,Bongo Flava,/wiki/Bongo_Flava,Hip hop,
+309,Boom bap,/wiki/Boom_bap,Hip hop,
+310,British hip hop,/wiki/British_hip_hop,Hip hop,
+311,Chap hop,/wiki/Chap_hop,Hip hop,
+312,Chopper,/wiki/Chopper_(rap),Hip hop,
+313,Christian hip hop,/wiki/Christian_hip_hop,Hip hop,
+314,Cloud rap,/wiki/Cloud_rap,Hip hop,
+315,Conscious hip hop,/wiki/Conscious_hip_hop,Hip hop,
+316,Crunk,/wiki/Crunk,Hip hop,
+317,Crunkcore,/wiki/Crunkcore,Hip hop,
+318,Drill,/wiki/Drill_(music_genre),Hip hop,
+319,Electro,/wiki/Electro_(music),Hip hop,
+320,Emo hip hop,/wiki/Emo_hip_hop,Hip hop,
+321,Experimental hip hop,/wiki/Experimental_hip_hop,Hip hop,
+322,G-funk,/wiki/G-funk,Hip hop,
+323,Ghetto house,/wiki/Ghetto_house,Hip hop,
+324,Ghettotech,/wiki/Ghettotech,Hip hop,
+325,Golden age hip hop,/wiki/Golden_age_hip_hop,Hip hop,
+326,Grime,/wiki/Grime_(music),Hip hop,
+327,Hardcore hip hop,/wiki/Hardcore_hip_hop,Hip hop,
+328,Hip house,/wiki/Hip_house,Hip hop,
+329,Hiplife,/wiki/Hiplife,Hip hop,
+330,Hip pop,/wiki/Hip_pop,Hip hop,
+331,Hyphy,/wiki/Hyphy,Hip hop,
+332,Industrial hip hop,/wiki/Industrial_hip_hop,Hip hop,
+333,Instrumental hip hop,/wiki/Instrumental_hip_hop,Hip hop,
+334,Jazz rap,/wiki/Jazz_rap,Hip hop,
+335,Jersey club,/wiki/Jersey_club,Hip hop,
+336,Kwaito,/wiki/Kwaito,Hip hop,
+337,Lyrical hip hop,/wiki/Lyrical_hip_hop,Hip hop,
+338,Low Bap,/wiki/Low_Bap,Hip hop,
+339,Merenrap,/wiki/Merenrap,Hip hop,
+340,Motswako,/wiki/Motswako,Hip hop,
+341,Mumble rap,/wiki/Mumble_rap,Hip hop,
+342,Nerdcore,/wiki/Nerdcore,Hip hop,
+343,New jack swing,/wiki/New_jack_swing,Hip hop,
+344,New school hip hop,/wiki/New_school_hip_hop,Hip hop,
+345,Old school hip hop,/wiki/Old_school_hip_hop,Hip hop,
+346,Political hip hop,/wiki/Political_hip_hop,Hip hop,
+347,Ragga,/wiki/Ragga,Hip hop,
+348,Reggaeton,/wiki/Reggaeton,Hip hop,
+349,Jerkin',/wiki/Jerkin%27,Hip hop,
+350,Emo rap,/wiki/Emo_rap,Hip hop,
+351,K-rap,/wiki/K-rap,Hip hop,
+352,J-rap,/wiki/J-rap,Hip hop,
+353,Horrorcore,/wiki/Horrorcore,Hip hop,
+354,Acid jazz,/wiki/Acid_jazz,Jazz,
+355,Afro-Cuban jazz,/wiki/Afro-Cuban_jazz,Jazz,
+356,Asian American jazz,/w/index.php?title=Asian_American_jazz&action=edit&redlink=1,Jazz,
+357,Avant-garde jazz,/wiki/Avant-garde_jazz,Jazz,
+358,Bebop,/wiki/Bebop,Jazz,
+359,Boogie-woogie,/wiki/Boogie-woogie,Jazz,
+360,Bossa nova,/wiki/Bossa_nova,Jazz,
+361,British dance band,/wiki/British_dance_band,Jazz,
+362,Cape jazz,/wiki/Cape_jazz,Jazz,
+363,Chamber jazz,/wiki/Chamber_jazz,Jazz,
+364,Continental jazz,/wiki/Continental_jazz,Jazz,
+365,Cool jazz,/wiki/Cool_jazz,Jazz,
+366,Crossover jazz,/wiki/Crossover_jazz,Jazz,
+367,Dixieland,/wiki/Dixieland,Jazz,
+368,Ethno jazz,/wiki/Ethno_jazz,Jazz,
+369,European free jazz,/wiki/European_free_jazz,Jazz,
+370,Free funk,/wiki/Free_funk,Jazz,
+371,Free improvisation,/wiki/Free_improvisation,Jazz,
+372,Free jazz,/wiki/Free_jazz,Jazz,
+373,Gypsy jazz,/wiki/Gypsy_jazz,Jazz,
+374,Hard bop,/wiki/Hard_bop,Jazz,
+375,Jazz blues,/wiki/Jazz_blues,Jazz,
+376,Jazz-funk,/wiki/Jazz-funk,Jazz,
+377,Jazz fusion,/wiki/Jazz_fusion,Jazz,
+378,Jazz rap,/wiki/Jazz_rap,Jazz,
+379,Jazz rock,/wiki/Jazz_rock,Jazz,
+380,Kansas City blues,/wiki/Kansas_City_blues,Jazz,
+381,Kansas City jazz,/wiki/Kansas_City_jazz,Jazz,
+382,Latin jazz,/wiki/Latin_jazz,Jazz,
+383,Livetronica,/wiki/Livetronica,Jazz,
+384,M-Base,/wiki/M-Base,Jazz,
+385,Mainstream jazz,/wiki/Mainstream_jazz,Jazz,
+386,Modal jazz,/wiki/Modal_jazz,Jazz,
+387,Neo-bop jazz,/wiki/Neo-bop_jazz,Jazz,
+388,Neo-swing,/wiki/Neo-swing,Jazz,
+389,Novelty ragtime,/wiki/Novelty_ragtime,Jazz,
+390,Nu jazz,/wiki/Nu_jazz,Jazz,
+391,Orchestral jazz,/wiki/Orchestral_jazz,Jazz,
+392,Post-bop,/wiki/Post-bop,Jazz,
+393,Progressive jazz,/wiki/Progressive_jazz,Jazz,
+394,Psychedelic jazz,/wiki/Psychedelic_jazz,Jazz,
+395,Punk jazz,/wiki/Punk_jazz,Jazz,
+396,Ragtime,/wiki/Ragtime,Jazz,
+397,Shibuya-kei,/wiki/Shibuya-kei,Jazz,
+398,Ska jazz,/wiki/Ska_jazz,Jazz,
+399,Smooth jazz,/wiki/Smooth_jazz,Jazz,
+400,Soul jazz,/wiki/Soul_jazz,Jazz,
+401,Stride jazz,/wiki/Stride_jazz,Jazz,
+402,Straight-ahead jazz,/wiki/Straight-ahead_jazz,Jazz,
+403,Swing,/wiki/Swing_music,Jazz,
+404,Third stream,/wiki/Third_stream,Jazz,
+405,Trad jazz,/wiki/Trad_jazz,Jazz,
+406,Vocal jazz,/wiki/Vocal_jazz,Jazz,
+407,West Coast jazz,/wiki/West_Coast_jazz,Jazz,
+408,Axé,/wiki/Ax%C3%A9_music,Latin,
+409,Brazilian rock,/wiki/Brazilian_rock,Latin,
+410,Tecnobrega,/wiki/Tecnobrega,Latin,
+411,Zouk-Lambada,/w/index.php?title=Zouk-Lambada&action=edit&redlink=1,Latin,
+412,Tropicalia,/wiki/Tropicalia,Latin,
+413,Pagode,/wiki/Pagode,Latin,
+414,Samba rock,/wiki/Samba_rock,Latin,
+415,Afro-Cuban jazz,/wiki/Afro-Cuban_jazz,Latin,
+416,Bossa Nova,/wiki/Bossa_Nova,Latin,
+417,Latin ballad,/wiki/Latin_ballad,Latin,
+418,Latin alternative,/wiki/Latin_alternative,Latin,
+419,Rock en Español,/wiki/Rock_en_Espa%C3%B1ol,Latin,
+420,Latin trap,/wiki/Latin_trap,Latin,
+421,Banda,/wiki/Banda_(music),Latin,
+422,Grupera,/wiki/Grupera,Latin,
+423,Ranchera,/wiki/Ranchera,Latin,
+424,Bullerengue,/wiki/Bullerengue,Latin,
+425,Fado,/wiki/Fado,Latin,
+426,Huayno,/wiki/Huayno,Latin,
+427,Mexican son,/wiki/Mexican_son_music,Latin,
+428,Música criolla,/wiki/M%C3%BAsica_criolla,Latin,
+429,Nueva canción,/wiki/Nueva_canci%C3%B3n,Latin,
+430,Bachata,/wiki/Bachata_(music),Latin,
+431,Bolero,/wiki/Bolero,Latin,
+432,Criolla,/wiki/Criolla,Latin,
+433,Chicha,https://es.wikipedia.org/wiki/Chicha_(m%C3%BAsica),Latin,
+434,Porro,/wiki/Porro,Latin,
+435,Salsa romántica,/wiki/Salsa_rom%C3%A1ntica,Latin,
+436,Adult contemporary,/wiki/Adult_contemporary,Pop,
+437,Arabic pop,/wiki/Arabic_pop_music,Pop,
+438,Baroque pop,/wiki/Baroque_pop,Pop,
+439,Brill Building,/wiki/Brill_Building_(genre),Pop,
+440,Britpop,/wiki/Britpop,Pop,
+441,Bubblegum pop,/wiki/Bubblegum_pop,Pop,
+442,Canción,/wiki/Canci%C3%B3n,Pop,
+443,Canzone,/wiki/Canzone,Pop,
+444,Chalga,/wiki/Chalga,Pop,
+445,Chanson,/wiki/Chanson,Pop,
+446,Christian pop,/wiki/Christian_pop,Pop,
+447,Classical crossover,/wiki/Classical_crossover,Pop,
+448,Country pop,/wiki/Country_pop,Pop,
+449,Hokkien pop,/wiki/Hokkien_pop,Pop,
+450,Mandopop,/wiki/Mandopop,Pop,
+451,Austropop,/wiki/Austropop,Pop,
+452,Eurobeat,/wiki/Eurobeat,Pop,
+453,French pop,/wiki/French_pop_music,Pop,
+454,Italo dance,/wiki/Italo_dance,Pop,
+455,Italo disco,/wiki/Italo_disco,Pop,
+456,Laïkó,/wiki/La%C3%AFk%C3%B3,Pop,
+457,Latin pop,/wiki/Latin_pop,Pop,
+458,Nederpop,/wiki/Nederpop,Pop,
+459,Russian pop,/wiki/Russian_pop,Pop,
+460,Korean hip hop,/wiki/Korean_hip_hop,Pop,
+461,Korean rock,/wiki/Korean_rock,Pop,
+462,T'ong guitar,/wiki/T%27ong_guitar,Pop,
+463,Trot,/wiki/Trot_(music),Pop,
+464,Power pop,/wiki/Power_pop,Pop,
+465,Soft rock,/wiki/Soft_rock,Pop,
+466,Neon pop,/wiki/Neon_pop,Pop,
+467,Emo pop,/wiki/Emo_pop,Pop,
+468,Contemporary R&B,/wiki/Contemporary_R%26B,R&B and soul,
+469,Disco,/wiki/Disco,R&B and soul,
+470,Deep funk,/wiki/Deep_funk,R&B and soul,
+471,Go-go,/wiki/Go-go,R&B and soul,
+472,P-Funk,/wiki/P-Funk,R&B and soul,
+473,Post-disco,/wiki/Post-disco,R&B and soul,
+474,Boogie,/wiki/Boogie_(genre),R&B and soul,
+475,Blue-eyed soul,/wiki/Blue-eyed_soul,R&B and soul,
+476,Hip hop soul,/wiki/Hip_hop_soul,R&B and soul,
+477,Northern soul,/wiki/Northern_soul,R&B and soul,
+478,Neo soul,/wiki/Neo_soul,R&B and soul,
+479,Psychedelic Soul,/wiki/Psychedelic_Soul,R&B and soul,
+480,Southern soul,/wiki/Southern_soul,R&B and soul,
+481,Post-Britpop,/wiki/Post-Britpop,Rock,
+482,Shoegaze,/wiki/Shoegaze,Rock,
+483,Dream Pop,/wiki/Dream_Pop,Rock,
+484,Post-grunge,/wiki/Post-grunge,Rock,
+485,Dunedin sound,/wiki/Dunedin_sound,Rock,
+486,Math rock,/wiki/Math_rock,Rock,
+487,Post-punk revival,/wiki/Post-punk_revival,Rock,
+488,Sadcore,/wiki/Sadcore,Rock,
+489,Slowcore,/wiki/Slowcore,Rock,
+490,Electronicore,/wiki/Electronicore,Rock,
+491,Art rock,/wiki/Art_rock,Rock,
+492,Industrial rock,/wiki/Industrial_rock,Rock,
+493,Gothic rock,/wiki/Gothic_rock,Rock,
+494,No wave,/wiki/No_wave,Rock,
+495,Noise rock,/wiki/Noise_rock,Rock,
+496,Post-metal,/wiki/Post-metal,Rock,
+497,World fusion,/wiki/World_fusion,Rock,
+498,Soft rock,/wiki/Soft_rock,Rock,
+499,Canterbury scene,/wiki/Canterbury_scene,Rock,
+500,Krautrock,/wiki/Krautrock,Rock,
+501,New prog,/wiki/New_prog,Rock,
+502,Rock in Opposition,/wiki/Rock_in_Opposition,Rock,
+503,Space rock,/wiki/Space_rock,Rock,
+504,Acid rock,/wiki/Acid_rock,Rock,
+505,Freakbeat,/wiki/Freakbeat,Rock,
+506,Neo-psychedelia,/wiki/Neo-psychedelia,Rock,
+507,Raga rock,/wiki/Raga_rock,Rock,
+508,Rapcore,/wiki/Rapcore,Rock,
+509,Nagoya kei,/wiki/Nagoya_kei,Rock,
+510,Alternative metal,/wiki/Alternative_metal,Rock,Heavy metal
+511,Avant-garde metal,/wiki/Avant-garde_metal,Rock,Heavy metal
+512,Symphonic black metal,/wiki/Symphonic_black_metal,Rock,Heavy metal
+513,Viking metal,/wiki/Viking_metal,Rock,Heavy metal
+514,War metal,/wiki/War_metal,Rock,Heavy metal
+515,National Socialist black metal,/wiki/National_Socialist_black_metal,Rock,Heavy metal
+516,Unblack metal,/wiki/Unblack_metal,Rock,Heavy metal
+517,Death 'n' roll,/wiki/Death_%27n%27_roll,Rock,Heavy metal
+518,Melodic death metal,/wiki/Melodic_death_metal,Rock,Heavy metal
+519,Technical death metal,/wiki/Technical_death_metal,Rock,Heavy metal
+520,Deathgrind,/wiki/Deathgrind,Rock,Heavy metal
+521,Doom metal § Black-doom,/wiki/Doom_metal#Black-doom,Rock,Heavy metal
+522,Doom metal § Blackened death-doom,/wiki/Doom_metal#Blackened_death-doom,Rock,Heavy metal
+523,Doom metal § Funeral doom,/wiki/Doom_metal#Funeral_doom,Rock,Heavy metal
+524,Celtic metal,/wiki/Celtic_metal,Rock,Heavy metal
+525,Medieval metal,/wiki/Medieval_metal,Rock,Heavy metal
+526,Pagan metal,/wiki/Pagan_metal,Rock,Heavy metal
+527,Melodic metalcore,/wiki/Melodic_metalcore,Rock,Heavy metal
+528,Deathcore,/wiki/Deathcore,Rock,Heavy metal
+529,Mathcore,/wiki/Mathcore,Rock,Heavy metal
+530,Djent,/wiki/Djent,Rock,Heavy metal
+531,Crossover thrash,/wiki/Crossover_thrash,Rock,Heavy metal
+532,Groove metal,/wiki/Groove_metal,Rock,Heavy metal
+533,D-beat,/wiki/D-beat,Rock,Punk rock
+534,Celtic punk,/wiki/Celtic_punk,Rock,Punk rock
+535,Cowpunk,/wiki/Cowpunk,Rock,Punk rock
+536,Gypsy punk,/wiki/Gypsy_punk,Rock,Punk rock
+537,Crustgrind,/wiki/Crustgrind,Rock,Punk rock
+538,Noisegrind,/wiki/Noisegrind,Rock,Punk rock
+539,Goregrind,/wiki/Goregrind,Rock,Punk rock
+540,Pornogrind,/wiki/Pornogrind,Rock,Punk rock
+541,Melodic hardcore,/wiki/Melodic_hardcore,Rock,Punk rock
+542,Emo pop,/wiki/Emo_pop,Rock,Punk rock
+543,Screamo,/wiki/Screamo,Rock,Punk rock
+544,Neon pop,/wiki/Neon_pop,Rock,Punk rock
