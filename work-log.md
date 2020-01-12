@@ -674,3 +674,6 @@ Notes
 ## 9-4-19
 * Previewed metadata sheets for sciences, sports, politics.
 * For two weeks: Prepare slides reviewing summary stats for each domain. Average words per article, etc.
+
+## 12-1-19
+* 
