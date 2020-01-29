@@ -9,10 +9,15 @@ from codecs import open
 def urls_collect(soup):
     urls = []
     # add link to list
-    for link in soup.find_all('a'):
-        urls.append(str(link.get('href')))
+    for link in soup.find_all("a"):
+        urls.append(str(link.get("href")))
 
-    start = urls.index("/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date?") + 1
+    start = (
+        urls.index(
+            "/wiki/Wikipedia:FAQ/Categorization#Why_might_a_category_list_not_be_up_to_date?"
+        )
+        + 1
+    )
 
     for url in urls:
         if "https://en.wikipedia.org/w/index.php?title=Category:" in url:
@@ -26,11 +31,11 @@ def titles_collect(soup):
     titles = []
 
     # add title to list
-    for title in soup.find_all('a'):
+    for title in soup.find_all("a"):
         titles.append(title.text)
     # make ascii
     for title in titles:
-        titles[titles.index(title)] = title.encode('ascii', 'ignore')
+        titles[titles.index(title)] = title.encode("ascii", "ignore")
 
     start = titles.index("learn more") + 1
 
@@ -49,7 +54,11 @@ def main():
 
     for i in range(0, 217):
         # create url
-        url = "https://en.wikipedia.org/wiki/Category:" + str(i+1801) + "_American_novels"
+        url = (
+            "https://en.wikipedia.org/wiki/Category:"
+            + str(i + 1801)
+            + "_American_novels"
+        )
         print url
         # attack url
         response = requests.get(url)
@@ -64,25 +73,31 @@ def main():
         urls.extend(urls_collect(soup))
 
         for j in range(0, titles_list.__len__()):
-            years.append(i+1801)
+            years.append(i + 1801)
 
-    urls_dir = '/Users/nathandrezner/OneDrive - McGill University/McGill/' \
-               'txt Lab/r directory/csv_outputs/novels csvs/novels_urls.csv'
-    titles_dir = '/Users/nathandrezner/OneDrive - McGill University/McGill/' \
-                 'txt Lab/r directory/csv_outputs/novels csvs/novels_titles.csv'
-    years_dir = '/Users/nathandrezner/OneDrive - McGill University/McGill/' \
-                'txt Lab/r directory/csv_outputs/novels csvs/novels_years.csv'
+    urls_dir = (
+        "/Users/nathandrezner/OneDrive - McGill University/McGill/"
+        "txt Lab/r directory/csv_outputs/novels csvs/novels_urls.csv"
+    )
+    titles_dir = (
+        "/Users/nathandrezner/OneDrive - McGill University/McGill/"
+        "txt Lab/r directory/csv_outputs/novels csvs/novels_titles.csv"
+    )
+    years_dir = (
+        "/Users/nathandrezner/OneDrive - McGill University/McGill/"
+        "txt Lab/r directory/csv_outputs/novels csvs/novels_years.csv"
+    )
 
-    with open(urls_dir, 'wb') as myfile:
-        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL, delimiter='\n')
+    with open(urls_dir, "wb") as myfile:
+        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL, delimiter="\n")
         wr.writerow(urls)
 
-    with open(titles_dir, 'wb') as myfile:
-        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL, delimiter='\n')
+    with open(titles_dir, "wb") as myfile:
+        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL, delimiter="\n")
         wr.writerow(titles)
 
-    with open(years_dir, 'wb') as myfile:
-        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL, delimiter='\n')
+    with open(years_dir, "wb") as myfile:
+        wr = csv.writer(myfile, quoting=csv.QUOTE_ALL, delimiter="\n")
         wr.writerow(years)
 
 

@@ -8,71 +8,70 @@ import pandas
 
 
 def get_meta():
-	url = "https://en.wikipedia.org/wiki/List_of_American_television_programs"
-	# make soup
-	response = requests.get(url)
-	soup = BeautifulSoup(response.content, features="html.parser")
+    url = "https://en.wikipedia.org/wiki/List_of_American_television_programs"
+    # make soup
+    response = requests.get(url)
+    soup = BeautifulSoup(response.content, features="html.parser")
 
-	urls = []
-	metas = []
-	titles = []
+    urls = []
+    metas = []
+    titles = []
 
-	items = filter(None, soup.findAll('li'))
+    items = filter(None, soup.findAll("li"))
 
-	for item in items:
-		try:
-			title = item.i.a.find(text=True, recursive=False).strip()
-			url = item.i.a['href']
-			meta = item.find(text=True, recursive=False).strip()
-		except:
-			continue
-		
-		titles.append(title)
-		urls.append(url)
-		metas.append(meta)
+    for item in items:
+        try:
+            title = item.i.a.find(text=True, recursive=False).strip()
+            url = item.i.a["href"]
+            meta = item.find(text=True, recursive=False).strip()
+        except:
+            continue
 
-	starts = []
-	ends = []
-	genres = []
-	for meta in metas:
-		split = meta.split(')')
-		years = split[0][1:].split('–')
-		
-		try:
-			start = int(years[0])
-		except:
-			start = 0
-		starts.append(start)
+        titles.append(title)
+        urls.append(url)
+        metas.append(meta)
 
-		try:
-			ends.append(years[1])
-		except:
-			ends.append('NA')
+    starts = []
+    ends = []
+    genres = []
+    for meta in metas:
+        split = meta.split(")")
+        years = split[0][1:].split("–")
 
-		try:
-			genres.append(split[1].strip()[2:])
-		except:
-			genres.append('NA')
+        try:
+            start = int(years[0])
+        except:
+            start = 0
+        starts.append(start)
 
-	meta = pandas.DataFrame()
-	meta['title'] = titles
-	meta['url'] = urls
-	meta['genre'] = genres
-	meta['year'] = starts
-	meta['end'] = ends
+        try:
+            ends.append(years[1])
+        except:
+            ends.append("NA")
 
-	print(meta.loc[meta['year']==0]) # something like this)
+        try:
+            genres.append(split[1].strip()[2:])
+        except:
+            genres.append("NA")
 
+    meta = pandas.DataFrame()
+    meta["title"] = titles
+    meta["url"] = urls
+    meta["genre"] = genres
+    meta["year"] = starts
+    meta["end"] = ends
 
-	return meta
+    print(meta.loc[meta["year"] == 0])  # something like this)
+
+    return meta
 
 
 def main():
-	meta = get_meta()
+    meta = get_meta()
 
-	out = '/Volumes/KINGSTON/txtlab/out/metadata/tv2.csv'
+    out = "/Volumes/KINGSTON/txtlab/out/metadata/tv2.csv"
 
-	meta.to_csv(out)
+    meta.to_csv(out)
 
 
 main()

@@ -10,40 +10,43 @@ def get_meta():
     response = requests.get(url)
     soup = BeautifulSoup(response.content, features="html.parser")
 
-    start = soup.find('h2') # Start here
-    genre = start.text.strip() # the main header
-    subgenre = soup.find('h3').text.strip() # the subheader
+    start = soup.find("h2")  # Start here
+    genre = start.text.strip()  # the main header
+    subgenre = soup.find("h3").text.strip()  # the subheader
 
-    urls, titles, genres, subgenres = [],[],[],[]
-    
+    urls, titles, genres, subgenres = [], [], [], []
+
     for nextSibling in soup.find_all():
-        if nextSibling.name == 'h3':
+        if nextSibling.name == "h3":
             subgenre = nextSibling.text.strip()
-        if nextSibling.name == 'h2':
+        if nextSibling.name == "h2":
             genre = nextSibling.text.strip()
             subgenre = ""
-        if 'Contents' in genre or 'References' in genre or 'Navigation' in genre or 'See also' in genre:
+        if (
+            "Contents" in genre
+            or "References" in genre
+            or "Navigation" in genre
+            or "See also" in genre
+        ):
             continue
-        
-        if nextSibling.name == 'ul':
-            for li in nextSibling.findAll('li'):
-                if li.find('ul'):
+
+        if nextSibling.name == "ul":
+            for li in nextSibling.findAll("li"):
+                if li.find("ul"):
                     break
                 try:
-                    urls.append(li.a['href'])
+                    urls.append(li.a["href"])
                 except:
                     continue
                 titles.append(li.a.text)
                 genres.append(genre[:-6])
                 subgenres.append(subgenre[:-6])
 
-
-
     meta = pandas.DataFrame()
-    meta['title'] = titles
-    meta['url'] = urls
-    meta['genre'] = genres
-    meta['subgenres'] = subgenres
+    meta["title"] = titles
+    meta["url"] = urls
+    meta["genre"] = genres
+    meta["subgenres"] = subgenres
 
     return meta
 
@@ -51,7 +54,7 @@ def get_meta():
 def main():
     meta = get_meta()
 
-    out = '/Users/ndrezn/OneDrive - McGill University/Github/txtLab/results/metadata/music.csv'
+    out = "/Users/ndrezn/OneDrive - McGill University/Github/txtLab/results/metadata/music.csv"
 
     meta.to_csv(out)
 
