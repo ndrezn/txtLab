@@ -11,3 +11,5 @@ The project is being conducted for the McGill [txtLab](https://txtlab.org/).
 ## This repository
 This repository contains the code used to collect and analyze a set of articles as part of a project for the txtLab. Using [wikipedia-histories](https://github.com/ndrezn/wikipedia-histories), a module to scrape article revisions, social network representations of editor relationships were created to represent the ways editors cross over between domains.
 
+I'll eventually add the network and metadata functionality to `wikipedia-histories`.
+
