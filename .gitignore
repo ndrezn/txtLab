@@ -2,7 +2,8 @@
 *.DS_Store
 *venv
 *__pycache__
-results
+results/data/articles
+results/data/social-networks
 other-work
 work-log
 cited-works

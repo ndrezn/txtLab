@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="long" for="edge" id="d2" />
+  <key attr.name="category" attr.type="string" for="node" id="d1" />
+  <key attr.name="domain" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="undirected">
+    <node id="PT Walkley">
+      <data key="d0">culture</data>
+      <data key="d1">Category:Television_in_the_United_States</data>
+    </node>
+    <node id="Paul Smith (composer)">
+      <data key="d0">culture</data>
+      <data key="d1">Category:Television_in_the_United_States</data>
+    </node>
+    <node id="All My Children">
+      <data key="d0">culture</data>
+      <data key="d1">Category:Television_in_the_United_States</data>
+    </node>
+    <node id="WWMT-DT2">
+      <data key="d0">culture</data>
+      <data key="d1">Category:Television_in_the_United_States</data>
+    </node>
+    <node id="Orders of magnitude (molar concentration)">
+      <data key="d0">sciences</data>
+      <data key="d1">Category:Chemistry</data>
+    </node>
+    <node id="Union Carbide India Limited">
+      <data key="d0">sciences</data>
+      <data key="d1">Category:Chemistry</data>
+    </node>
+    <node id="Silver standards">
+      <data key="d0">sciences</data>
+      <data key="d1">Category:Chemistry</data>
+    </node>
+    <edge source="PT Walkley" target="Paul Smith (composer)">
+      <data key="d2">9</data>
+    </edge>
+    <edge source="PT Walkley" target="All My Children">
+      <data key="d2">16</data>
+    </edge>
+    <edge source="PT Walkley" target="WWMT-DT2">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="PT Walkley" target="Orders of magnitude (molar concentration)">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="PT Walkley" target="Union Carbide India Limited">
+      <data key="d2">4</data>
+    </edge>
+    <edge source="PT Walkley" target="Silver standards">
+      <data key="d2">6</data>
+    </edge>
+    <edge source="Paul Smith (composer)" target="All My Children">
+      <data key="d2">37</data>
+    </edge>
+    <edge source="Paul Smith (composer)" target="WWMT-DT2">
+      <data key="d2">3</data>
+    </edge>
+    <edge source="Paul Smith (composer)" target="Orders of magnitude (molar concentration)">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Paul Smith (composer)" target="Union Carbide India Limited">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Paul Smith (composer)" target="Silver standards">
+      <data key="d2">3</data>
+    </edge>
+    <edge source="All My Children" target="WWMT-DT2">
+      <data key="d2">25</data>
+    </edge>
+    <edge source="All My Children" target="Orders of magnitude (molar concentration)">
+      <data key="d2">15</data>
+    </edge>
+    <edge source="All My Children" target="Union Carbide India Limited">
+      <data key="d2">51</data>
+    </edge>
+    <edge source="All My Children" target="Silver standards">
+      <data key="d2">38</data>
+    </edge>
+    <edge source="WWMT-DT2" target="Orders of magnitude (molar concentration)">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="WWMT-DT2" target="Union Carbide India Limited">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="WWMT-DT2" target="Silver standards">
+      <data key="d2">0</data>
+    </edge>
+    <edge source="Orders of magnitude (molar concentration)" target="Union Carbide India Limited">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Orders of magnitude (molar concentration)" target="Silver standards">
+      <data key="d2">2</data>
+    </edge>
+    <edge source="Union Carbide India Limited" target="Silver standards">
+      <data key="d2">7</data>
+    </edge>
+  </graph>
+</graphml>
