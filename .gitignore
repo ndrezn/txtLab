@@ -1,15 +1,6 @@
 
-.DS_Store
-data analysis/.DS_Store
-other/.DS_Store
-other/classification workshop/.DS_Store
-results/.DS_Store
-results/characteristic words/.DS_Store
-results/characteristic words/g_squared/.DS_Store
-results/characteristic words/g_squared/no_stopwords/.DS_Store
-results/characteristic words/g_squared/with_stopwords/.DS_Store
-results/metadata visuals/.DS_Store
-results/metadata/.DS_Store
-writeups/ARIA Report.docx
-writeups/ARIA Report-Revised.docx
-other work/twitter_credentials.json
+*.DS_Store
+*venv
+*__pycache__
+results
+other-work
